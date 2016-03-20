@@ -1,0 +1,384 @@
+
+
+
+/* navigation */
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: white !important;
+
+}
+
+.navbar-default {
+    border: none;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+  color: white;
+}
+
+.nav li {
+  padding-top: 8px;
+
+}
+
+.nav a {
+  color: #898989;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav a:hover {
+    color: #E91E63 !important;
+    text-decoration: none;
+}
+
+.nav a:focus {
+    color: #898989 !important;
+}
+
+.nav .active a {
+  color: #E91E63 !important;
+  font-size: 22px !important;
+  background-color: white !important;
+}
+
+
+#hamburger {
+  margin-top: 12px;
+  border: none;
+}
+
+#hamburger:focus {
+  background-color: white;
+
+}
+
+#hamburger span {
+  font-size: 25px;
+  color: #898989;
+}
+
+#navcolor{
+    background-color: white;
+}
+
+/* home */
+
+.jumbotron {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background:url('img/jumbotron.png') no-repeat center fixed;
+  background-size:cover;
+  align-items: center;
+}
+
+  #title  {
+  font-family: 'Raleway', sans-serif;
+  color: #E91E63;
+  font-size: 8em;
+  font-weight: bold;
+  text-align:left;
+}
+  #desc {
+  font-family: 'Lato', sans-serif;
+  color: #606060;
+  text-align: left;
+}
+
+/* about */
+
+.about p {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  color: #606060;
+  font-size: 16px;
+}
+
+.img-rounded {
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+#motto p {
+  color:#E91E63;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+#bio {
+margin-top: 10px;
+margin-left: -40px;
+list-style-type: none;
+}
+
+#bio li {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Education and Experience */
+
+.experience h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #606060;
+}
+
+.list-white {
+  border-top: 1px solid #a6a6a6;
+  display: flex;
+}
+
+.list-white:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.circle-white {
+  opacity: 0.8;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 83px;
+  vertical-align: middle;
+  margin: 30px 30px 30px 0px;
+}
+
+.list-dark {
+  border-top: 1px solid #a6a6a6;
+  display: flex;
+}
+
+.list-dark:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.circle-dark {
+  opacity: 0.8;
+  background-color: #898989;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 83px;
+  vertical-align: middle;
+  margin: 30px 30px 30px 0px;
+}
+
+.text-line-two {
+  margin-top: 20px;
+}
+
+.text-line-three {
+  margin-top: 10px;
+}
+
+#glyph-dark {
+  font-size: 25px;
+  color: #898989;
+}
+
+#glyph-white {
+  font-size: 25px;
+  color: white;
+}
+
+#text-white-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+#text-white-desc {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#text-white-year {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#text-dark-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #606060;
+  font-size: 20px;
+}
+
+#text-dark-desc {
+  font-family: 'Lato', sans-serif;
+  color: #606060;
+}
+
+#text-dark-year {
+  font-family: 'Lato', sans-serif;
+  color: #606060;
+}
+
+/* Skill */
+
+.skill {
+  padding-bottom: 40px;
+}
+
+.skill h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #606060;
+  padding-bottom: : 20px;
+}
+
+.progress {
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  border-radius: 0px; height: 25px;
+}
+
+.progress-bar-custom {
+  background: #E91E63;
+}
+
+#skill-text {
+  font-family: 'Lato', sans-serif;
+  color: #606060;
+  font-size: 20px;
+}
+
+/* Portfolio */
+
+.portfolio .jumbotron {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    background:url('img/jumbotron-portfolio-soon.png') no-repeat center fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+#portfolio-title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 8em;
+  font-weight: bold;
+}
+
+#portfolio-desc {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 3em;
+}
+
+/* Contact*/
+
+.contact {
+  background-color: #898989;
+  padding-bottom: 90px;
+}
+
+.contact h1 {
+  padding: 10px;
+}
+
+.contact span {
+  color: white;
+}
+
+.contact p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Social */
+
+.social {
+}
+
+.social li {
+  display: inline;
+  text-align: center;
+}
+
+.social img {
+  width: 66px;
+  height: 66px;
+  background: #333333;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.social img:hover {
+  background: #E91E63;
+}
+
+
+/* Footer */
+
+.page-end {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #333333;
+}
+
+.page-end span {
+  color: #E91E63;
+  font-size: 25px;
+}
+
+
+.page-end p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Essentials */
+
+.menu-anchor {
+  height: 50px;
+}
+
+#title-menu-dark {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #606060;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+#title-menu-white {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
