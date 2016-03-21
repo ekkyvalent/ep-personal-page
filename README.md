@@ -21,9 +21,8 @@ Other commands from other languanges are listed [here](https://gist.github.com/w
 
 Please keep in mind that you must be connected to the internet for the page in order for jQuery script and some fonts to work.
 
-
 ## Page Sample
-Coming soon.
+Page sample redirects [here](http://ekkyvalent.github.io/ep-personal-page/).
 
 ## License
 Code released under the [MIT](https://github.com/ekkyvalent/ep-personal-page/blob/master/LICENSE) license.
